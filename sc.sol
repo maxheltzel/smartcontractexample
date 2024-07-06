@@ -704,8 +704,8 @@ contract Charity is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Donate";
-    string private _symbol = "DONATE";
+    string private _name = "Test";
+    string private _symbol = "TEST";
     uint8 private _decimals = 18;
 
     uint256 public _taxFee = 1;
@@ -716,7 +716,7 @@ contract Charity is Context, IERC20, Ownable {
 
     uint256 public _liquidityFee = 1;
     uint256 private _previousLiquidityFee = _liquidityFee;
-    address public marketingAdd = 0x0f2b23e72aAC7BC9627e66980Df813DB4aB8605E;
+    address public marketingAdd = 0x0c6b25e72bAC7BC9617e66980Df813DB4aB8605E;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
     address public immutable uniswapV2Pair;
